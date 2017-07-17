@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>照護篇</string>
+	<string>緊急篇</string>
+	<string>身體篇</string>
+	<string>飲食篇</string>
+	<string>浴室篇</string>
+	<string>寢室篇</string>
+	<string>娛樂篇</string>
+	<string>關愛篇</string>
+</array>
+</plist>

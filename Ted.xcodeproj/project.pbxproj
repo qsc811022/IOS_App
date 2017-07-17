@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19BE8C5AF2FE7D03C6B2296F /* Pods_Ted.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B893227FA3B1DA227FB56E1 /* Pods_Ted.framework */; };
+		B2085DDD1F023DBF00BB7406 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2085DDC1F023DBF00BB7406 /* SearchTableViewController.swift */; };
 		B297CE4F1EF7B7CC00288A31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B297CE4E1EF7B7CC00288A31 /* AppDelegate.swift */; };
-		B297CE511EF7B7CC00288A31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B297CE501EF7B7CC00288A31 /* ViewController.swift */; };
 		B297CE541EF7B7CC00288A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B297CE521EF7B7CC00288A31 /* Main.storyboard */; };
 		B297CE561EF7B7CC00288A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B297CE551EF7B7CC00288A31 /* Assets.xcassets */; };
 		B297CE591EF7B7CC00288A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B297CE571EF7B7CC00288A31 /* LaunchScreen.storyboard */; };
+		B297CE611EF7C43500288A31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B297CE601EF7C43500288A31 /* GoogleService-Info.plist */; };
+		B297CE631EF7C59400288A31 /* title.plist in Resources */ = {isa = PBXBuildFile; fileRef = B297CE621EF7C59400288A31 /* title.plist */; };
+		B297CE651EF9003F00288A31 /* tedTableViewContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B297CE641EF9003F00288A31 /* tedTableViewContorller.swift */; };
+		B297CE671EF900AF00288A31 /* TedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B297CE661EF900AF00288A31 /* TedViewController.swift */; };
+		B2F1C63D1F134B4500B7091E /* English.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2F1C63C1F134B4500B7091E /* English.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B893227FA3B1DA227FB56E1 /* Pods_Ted.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ted.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8E1EADD45E78A06D3A8DAE /* Pods-Ted.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ted.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ted/Pods-Ted.release.xcconfig"; sourceTree = "<group>"; };
+		B2085DDC1F023DBF00BB7406 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		B297CE4B1EF7B7CC00288A31 /* Ted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B297CE4E1EF7B7CC00288A31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B297CE501EF7B7CC00288A31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B297CE531EF7B7CC00288A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B297CE551EF7B7CC00288A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B297CE581EF7B7CC00288A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B297CE5A1EF7B7CC00288A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B297CE601EF7C43500288A31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B297CE621EF7C59400288A31 /* title.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = title.plist; sourceTree = "<group>"; };
+		B297CE641EF9003F00288A31 /* tedTableViewContorller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tedTableViewContorller.swift; sourceTree = "<group>"; };
+		B297CE661EF900AF00288A31 /* TedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TedViewController.swift; sourceTree = "<group>"; };
+		B2F1C63C1F134B4500B7091E /* English.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = English.plist; sourceTree = "<group>"; };
+		E2CD36C7469AE506C62A4A76 /* Pods-Ted.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ted.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ted/Pods-Ted.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19BE8C5AF2FE7D03C6B2296F /* Pods_Ted.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2653FB3E1B8FB0D6166CA1D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2CD36C7469AE506C62A4A76 /* Pods-Ted.debug.xcconfig */,
+				4B8E1EADD45E78A06D3A8DAE /* Pods-Ted.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CFE6561089C52A996A9D180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B893227FA3B1DA227FB56E1 /* Pods_Ted.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B297CE421EF7B7CC00288A31 = {
 			isa = PBXGroup;
 			children = (
 				B297CE4D1EF7B7CC00288A31 /* Ted */,
 				B297CE4C1EF7B7CC00288A31 /* Products */,
+				2653FB3E1B8FB0D6166CA1D4 /* Pods */,
+				9CFE6561089C52A996A9D180 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,9 +88,14 @@
 		B297CE4D1EF7B7CC00288A31 /* Ted */ = {
 			isa = PBXGroup;
 			children = (
+				B297CE601EF7C43500288A31 /* GoogleService-Info.plist */,
 				B297CE4E1EF7B7CC00288A31 /* AppDelegate.swift */,
-				B297CE501EF7B7CC00288A31 /* ViewController.swift */,
+				B297CE661EF900AF00288A31 /* TedViewController.swift */,
+				B297CE641EF9003F00288A31 /* tedTableViewContorller.swift */,
 				B297CE521EF7B7CC00288A31 /* Main.storyboard */,
+				B2085DDC1F023DBF00BB7406 /* SearchTableViewController.swift */,
+				B297CE621EF7C59400288A31 /* title.plist */,
+				B2F1C63C1F134B4500B7091E /* English.plist */,
 				B297CE551EF7B7CC00288A31 /* Assets.xcassets */,
 				B297CE571EF7B7CC00288A31 /* LaunchScreen.storyboard */,
 				B297CE5A1EF7B7CC00288A31 /* Info.plist */,
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B297CE5D1EF7B7CC00288A31 /* Build configuration list for PBXNativeTarget "Ted" */;
 			buildPhases = (
+				C185196BC0EEE2F818330B0D /* [CP] Check Pods Manifest.lock */,
 				B297CE471EF7B7CC00288A31 /* Sources */,
 				B297CE481EF7B7CC00288A31 /* Frameworks */,
 				B297CE491EF7B7CC00288A31 /* Resources */,
+				FA38A1A94387F9471EED1534 /* [CP] Embed Pods Frameworks */,
+				A3AEB583ACD67AF825DE5308 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +138,7 @@
 				TargetAttributes = {
 					B297CE4A1EF7B7CC00288A31 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EENTPNX6TJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,7 +166,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B297CE631EF7C59400288A31 /* title.plist in Resources */,
+				B2F1C63D1F134B4500B7091E /* English.plist in Resources */,
 				B297CE591EF7B7CC00288A31 /* LaunchScreen.storyboard in Resources */,
+				B297CE611EF7C43500288A31 /* GoogleService-Info.plist in Resources */,
 				B297CE561EF7B7CC00288A31 /* Assets.xcassets in Resources */,
 				B297CE541EF7B7CC00288A31 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +177,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A3AEB583ACD67AF825DE5308 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ted/Pods-Ted-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C185196BC0EEE2F818330B0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA38A1A94387F9471EED1534 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ted/Pods-Ted-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B297CE471EF7B7CC00288A31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B297CE511EF7B7CC00288A31 /* ViewController.swift in Sources */,
 				B297CE4F1EF7B7CC00288A31 /* AppDelegate.swift in Sources */,
+				B297CE671EF900AF00288A31 /* TedViewController.swift in Sources */,
+				B297CE651EF9003F00288A31 /* tedTableViewContorller.swift in Sources */,
+				B2085DDD1F023DBF00BB7406 /* SearchTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,25 +354,31 @@
 		};
 		B297CE5E1EF7B7CC00288A31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2CD36C7469AE506C62A4A76 /* Pods-Ted.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EENTPNX6TJ;
 				INFOPLIST_FILE = Ted/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tedliu.Ted;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B297CE5F1EF7B7CC00288A31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8E1EADD45E78A06D3A8DAE /* Pods-Ted.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EENTPNX6TJ;
 				INFOPLIST_FILE = Ted/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tedliu.Ted;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -299,6 +401,7 @@
 				B297CE5F1EF7B7CC00288A31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
